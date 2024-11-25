@@ -15,7 +15,8 @@ public class Main {
         calculator.setExpression("1+1");
 
         // Get the answer
-        String answer = calculator.getAnswer(2);
+        int decimalPoints = 2;
+        String answer = calculator.getAnswer(decimalPoints);
   
         // Print out the answer
         System.out.println(answer);
