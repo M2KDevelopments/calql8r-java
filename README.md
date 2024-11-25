@@ -9,14 +9,13 @@ public class Main {
     public static void main(String[] args) {
         
         // Initialize CalQl8R object
-        CalQL8R calculator = new CalQl8R();
+        CalQl8R calculator = new CalQl8R();
         
         // Set the expression
         calculator.setExpression("1+1");
 
         // Get the answer
-        int decimalPoints = 2;
-        String answer = calculator.getAnswer(decimalPoints);
+        String answer = calculator.getAnswer();
   
         // Print out the answer
         System.out.println(answer);
